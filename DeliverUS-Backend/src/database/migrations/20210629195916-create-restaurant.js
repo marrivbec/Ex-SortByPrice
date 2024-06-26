@@ -18,6 +18,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
+      sortByPrice: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
       postalCode: {
         allowNull: false,
         type: Sequelize.STRING

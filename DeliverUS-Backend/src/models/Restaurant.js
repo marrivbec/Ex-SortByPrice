@@ -36,6 +36,10 @@ const loadModel = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
+    sortByPrice: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
     postalCode: {
       allowNull: false,
       type: DataTypes.STRING
